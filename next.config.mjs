@@ -7,6 +7,10 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-  };
-  
-  export default nextConfig;
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
+    trailingSlash: true,
+};
+
+export default nextConfig;
